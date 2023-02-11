@@ -1,4 +1,4 @@
-import Navbar from "./navbar";
+import Navbars from "./navbar";
 import Sidebar from "./sidebar";
 import Footer from "./footer";
 // import CanonicalURL from "./canonicalUrl";
@@ -19,7 +19,7 @@ export default function Layout(props: LayoutProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar />
+      <Navbars />
       <main className="container-fluid docs-main" id="docs" >
         <Sidebar />
         <section>

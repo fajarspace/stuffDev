@@ -7,8 +7,8 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Script
-        id="bootstrap-cdna"
-        src="https://raw.githubusercontent.com/fajarspace/Stuff-CSS/master/dist/js/aside.js" />
+        id="asd"
+        src="../components/toogleNav" ></Script>
       <Script
         id="bootstrap-cdn"
         src="https://unpkg.com/stuffcss@1.1.0/dist/js/stuff.min.js" />

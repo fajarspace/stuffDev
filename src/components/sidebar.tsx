@@ -14,8 +14,8 @@ export default function Sidebar() {
             <summary>Getting started</summary>
             <div>
               <ul>
-                <li><Link href="/docs" id="start-link" className="secondary">Introduction</Link></li>
-                <li><Link href="/docs/download" id="download-link" className="secondary">Download</Link></li>
+                <li><a href="/docs" id="start-link" className="secondary">Introduction</a></li>
+                <li><a href="/docs/download" id="download-link" className="secondary">Download</a></li>
               </ul>
             </div>
           </details>
@@ -23,48 +23,48 @@ export default function Sidebar() {
             <summary>Customize</summary>
             <div>
               <ul>
-                {/* <li><Link href="./color" id="color-link" class="secondary">Color</Link></li> */}
+                {/* <li><a href="./color" id="color-link" class="secondary">Color</a></li> */}
                 <li><a href="/docs/customize/themes" id="themes-link" className="secondary">Themes</a></li>
-                <li><Link href="/docs/customize/css-variables" id="cssvar-link" className="secondary">CSS variables</Link></li>
+                <li><a href="/docs/customize/css-variables" id="cssvar-link" className="secondary">CSS variables</a></li>
               </ul>
             </div>
           </details>
           <details open>
             <summary>Layout</summary>
             <ul>
-              <li><Link href="/docs/layout/containers" id="containers-link" className="secondary">Containers</Link></li>
-              <li><Link href="/docs/layout/flex" id="flex-link" className="secondary">Flex</Link></li>
-              <li><Link href="/docs/layout/grid" id="grid-link" className="secondary">Grid</Link></li>
-              {/* <li><Link href="./scroller" id="scroller-link" class="secondary">Horizontal scroller</Link></li> */}
+              <li><a href="/docs/layout/containers" id="containers-link" className="secondary">Containers</a></li>
+              <li><a href="/docs/layout/flex" id="flex-link" className="secondary">Flex</a></li>
+              <li><a href="/docs/layout/grid" id="grid-link" className="secondary">Grid</a></li>
+              {/* <li><a href="./scroller" id="scroller-link" class="secondary">Horizontal scroller</a></li> */}
             </ul>
           </details>
           <details open>
             <summary>Contents</summary>
             <ul>
-              <li><Link href="/docs/contents/typography" id="typography-link" className="secondary">Typography</Link></li>
-              <li><Link href="/docs/contents/images" id="images-link" className="secondary">Images</Link></li>
-              {/* <li><Link href="./buttons" id="buttons-link" class="secondary">Buttons</Link></li>
-        <li><Link href="./forms" id="forms-link" class="secondary">Forms</Link></li>
-        <li><Link href="./tables" id="tables-link" class="secondary">Tables</Link></li> */}
+              <li><a href="/docs/contents/typography" id="typography-link" className="secondary">Typography</a></li>
+              <li><a href="/docs/contents/images" id="images-link" className="secondary">Images</a></li>
+              {/* <li><a href="./buttons" id="buttons-link" class="secondary">Buttons</a></li>
+        <li><a href="./forms" id="forms-link" class="secondary">Forms</a></li>
+        <li><a href="./tables" id="tables-link" class="secondary">Tables</a></li> */}
             </ul>
           </details>
           <details open>
             <summary>Forms</summary>
             <ul>
-              {/* <li><Link href="./typography" id="typography-link" class="secondary">Typography</Link></li> */}
+              {/* <li><a href="./typography" id="typography-link" class="secondary">Typography</a></li> */}
             </ul>
           </details>
           <details open>
             <summary>Components</summary>
             <ul>
-              <li><Link href="/docs/components/accordion" id="accordion-link" className="secondary">Accordion</Link></li>
-              <li><Link href="/docs/components/breadcrumb" id="breadcrumb-link" className="secondary">Breadcrumb</Link></li>
-              <li><Link href="/docs/components/buttons" id="buttons-link" className="secondary">Buttons</Link></li>
-              <li><Link href="/docs/components/cards" id="cards-link" className="secondary">Cards</Link></li>
-              {/* <li><Link href="./dropdowns" id="dropdowns-link" class="secondary">Dropdowns</Link></li> */}
-              {/* <li><Link href="./modal" id="modal-link" class="secondary">Modal</Link></li> */}
-              <li><Link href="./navbar" id="navbar-link" className="secondary">Navbar</Link></li>
-              {/* <li><Link href="./progress" id="progress-link" class="secondary">Progress</Link></li> */}
+              <li><a href="/docs/components/accordion" id="accordion-link" className="secondary">Accordion</a></li>
+              <li><a href="/docs/components/breadcrumb" id="breadcrumb-link" className="secondary">Breadcrumb</a></li>
+              <li><a href="/docs/components/buttons" id="buttons-link" className="secondary">Buttons</a></li>
+              <li><a href="/docs/components/cards" id="cards-link" className="secondary">Cards</a></li>
+              {/* <li><a href="./dropdowns" id="dropdowns-link" class="secondary">Dropdowns</a></li> */}
+              {/* <li><a href="./modal" id="modal-link" class="secondary">Modal</a></li> */}
+              <li><a href="./navbar" id="navbar-link" className="secondary">Navbar</a></li>
+              {/* <li><a href="./progress" id="progress-link" class="secondary">Progress</a></li> */}
             </ul>
           </details>
           <details open>
