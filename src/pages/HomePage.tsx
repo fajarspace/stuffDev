@@ -1,5 +1,6 @@
 import Navbar from "../components/navbar";
 import Link from "next/link";
+import Hero from "../components/hero"
 
 export default function HomePage() {
   return (
@@ -7,22 +8,24 @@ export default function HomePage() {
       <Navbar />
       <br /> <br />
       <main className='container' >
-        <section className='center' >
-          <hgroup>
-            <h1 className="logostuff judul">Stuff.</h1>
-            <h2>Make it easy to create responsive but minimalist web pages</h2>
+        <section className="" >
+          <div className="grid item-center" >
+            <div className="">
+              <Hero />
+              <a role='button' className="contrast" rel={"noreferrer"} href="docs/">Get started </a>
 
-          </hgroup>
-          <Link className="contrast" rel={"noreferrer"} target={"_blank"} href="https://github.com/fajarspace/stuff-css/releases">Download </Link>
-          <sup><mark>latest v1.1.0</mark></sup>
-          <br />
-          <br />
+              {/* <Link rel={"noopener"} className="github-button" href="https://github.com/fajarspace/stuff-css" data-icon="octicon-star" data-size="large"
+                data-show-count="true" aria-label="Star fajarspace/stuff-css on GitHub">Star</Link> &nbsp;
 
-          <Link rel={"noopener"} className="github-button" href="https://github.com/fajarspace/stuff-css" data-icon="octicon-star" data-size="large"
-            data-show-count="true" aria-label="Star fajarspace/stuff-css on GitHub">Star</Link> &nbsp;
+              <Link rel={"noopener"} className="github-button" href="https://github.com/fajarspace/stuff-css/issues" data-icon="octicon-issue-opened"
+                data-size="large" data-show-count="true" aria-label="Issue fajarspace/stuff-css on GitHub">Issue</Link> */}
+            </div>
+            <div>
+              <pre><code><em>&lt;!doctype html&gt;</em>{"\n"}&lt;<b>html</b> <i>lang</i>=<u>"en"</u>&gt;{"\n"}{"  "}&lt;<b>head</b>&gt;{"\n"}{"    "}&lt;<b>meta</b> <i>charset</i>=<u>"utf-8"</u>&gt;{"\n"}{"    "}&lt;<b>meta</b> <i>name</i>=<u>"viewport"</u> <i>content</i>=<u>"width=device-width, initial-scale=1"</u>&gt;{"\n"}{"    "}&lt;<b>link</b> <i>rel</i>=<u>"stylesheet"</u> <i>href</i>=<u>"https://unpkg.com/stuffcss@latest/dist/css/stuff.min.css"</u>&gt;{"\n"}{"    "}&lt;<b>title</b>&gt;Hello, world!&lt;/<b>title</b>&gt;{"\n"}{"  "}&lt;/<b>head</b>&gt;{"\n"}{"  "}&lt;<b>body</b>&gt;{"\n"}{"    "}&lt;<b>h1</b>&gt;Hello, world!&lt;/<b>h1</b>&gt;{"\n"}{"    "}&lt;<b>script</b> <i>src</i>=<u>"https://unpkg.com/stuffcss@latest/dist/js/stuff.min.js"</u>&gt;&lt;/<b>script</b>&gt;{"\n"}{"  "}&lt;/<b>body</b>&gt;{"\n"}&lt;/<b>html</b>&gt;</code></pre>
+            </div>
 
-          <Link rel={"noopener"} className="github-button" href="https://github.com/fajarspace/stuff-css/issues" data-icon="octicon-issue-opened"
-            data-size="large" data-show-count="true" aria-label="Issue fajarspace/stuff-css on GitHub">Issue</Link>
+          </div>
+
         </section>
 
         <section>
@@ -35,7 +38,7 @@ export default function HomePage() {
                   *note: <i> <u> version for React js is still under development, maybe you will find Link lot of bugs</u></i>
                 </p>
 
-                <pre><code>$ npm install stuffcss</code></pre>
+                <pre><code>$<u> npm install stuffcss</u></code></pre>
 
               </div>
               <div className="">
@@ -47,7 +50,7 @@ export default function HomePage() {
             </div>
           </div>
         </section>
-        <section>
+        {/* <section>
           <hgroup>
             <h1>Build and extend in real-time with CSS variables</h1>
             <h2>Stuff is evolving with each release to better utilize CSS variables for global theme styles, individual
@@ -69,7 +72,7 @@ export default function HomePage() {
               <pre><code>{"\n"}<b>:root</b> {"{"}{"\n"}{"\t"}--form - element - active - border - color: <u>var</u>(<i>--primary</i>);{"\n"}{"    "}--form-element-focus-color: <u>var</u>(<i>--primary-focus</i>);{"\n"}{"    "}--switch-color: <u>var</u>(<i>--primary-inverse</i>);{"\n"}{"    "}--switch-checked-background-color: <u>var</u>(<i>--primary</i>);{"\n"}{"}"}</code></pre>
             </div>
           </div>
-        </section>
+        </section> */}
 
         <section>
           <div className="center">
@@ -83,8 +86,6 @@ export default function HomePage() {
           <div className="grid" style={{ alignItems: 'center' }}>
             <div>
               <pre><code><em>&lt;!doctype html&gt;</em>{"\n"}&lt;<b>html</b> <i>lang</i>=<u>"en"</u>&gt;{"\n"}{"  "}&lt;<b>head</b>&gt;{"\n"}{"    "}&lt;<b>meta</b> <i>charset</i>=<u>"utf-8"</u>&gt;{"\n"}{"    "}&lt;<b>meta</b> <i>name</i>=<u>"viewport"</u> <i>content</i>=<u>"width=device-width, initial-scale=1"</u>&gt;{"\n"}{"    "}&lt;<b>link</b> <i>rel</i>=<u>"stylesheet"</u> <i>href</i>=<u>"https://unpkg.com/stuffcss@latest/dist/css/stuff.min.css"</u>&gt;{"\n"}{"    "}&lt;<b>title</b>&gt;Hello, world!&lt;/<b>title</b>&gt;{"\n"}{"  "}&lt;/<b>head</b>&gt;{"\n"}{"  "}&lt;<b>body</b>&gt;{"\n"}{"    "}&lt;<b>h1</b>&gt;Hello, world!&lt;/<b>h1</b>&gt;{"\n"}{"    "}&lt;<b>script</b> <i>src</i>=<u>"https://unpkg.com/stuffcss@latest/dist/js/stuff.min.js"</u>&gt;&lt;/<b>script</b>&gt;{"\n"}{"  "}&lt;/<b>body</b>&gt;{"\n"}&lt;/<b>html</b>&gt;</code></pre>
-              <h3>Install with NPM</h3>
-              <pre><code>$<u> npm install stuffcss</u></code></pre>
             </div>
             <div>
               <button className="darkmode"></button>

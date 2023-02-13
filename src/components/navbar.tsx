@@ -6,13 +6,22 @@ export default function Navbar() {
     <>
       <nav style={{ backgroundColor: 'var(--background-color)', zIndex: 99, borderBottom: '1px solid var(--muted-border-color)' }} className="container-fluid fixed">
         <ul>
-          <li><Link href="/">Stuff CSS</Link></li>
-          <li><Link href="/docs/">Docs</Link></li>/
-          <li><Link href="/themes/">Themes</Link></li>/
-          <li><Link href="/examples/">Examples</Link></li>
+          <li><a href="/">Stuff CSS</a></li>
+          {/* <li><a href="/docs/">Docs</a></li>/ */}
+          <li><a href="/themes/">Themes</a></li>
+          <li><a href="/examples/">Examples</a></li>
+
         </ul>
         <ul>
-          {/* <Darkmode /> */}
+          <li>
+            <details role="list">
+              <summary aria-haspopup="listbox" >v1.1</summary>
+              <ul role="listbox">
+                <li><a href="/" >v1.1</a></li>
+              </ul>
+            </details>
+          </li>
+          <Darkmode />
         </ul>
       </nav>
       <br />
