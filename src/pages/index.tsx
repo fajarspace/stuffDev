@@ -1,7 +1,7 @@
-import Script from 'next/script'
-import Image from 'next/image'
+// import Script from 'next/script'
+// import Image from 'next/image'
 import Head from "next/head";
-import Link from "next/link";
+// import Link from "next/link";
 // import { Inter } from '@next/font/google'
 import HomePage from "./HomePage";
 
@@ -15,7 +15,6 @@ export default function Home() {
         <meta name="description" content="Stuff is a simple framework CSS for native website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-        <script src='../components/toogleNav.js' ></script>
       </Head>
 
       <HomePage />

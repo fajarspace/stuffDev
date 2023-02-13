@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Darkmode() {
   return (
-    <li className="darkmode"></li>
+    <li> <a href="#" role='button' className="darkmode"></a> </li>
   )
 }

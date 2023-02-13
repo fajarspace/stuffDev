@@ -92,9 +92,13 @@
 //   background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(252, 176, 69, 1) 100%);
 // }
 
-// .judul {
-//   // -webkit-background-clip: text;
-//   // -webkit-text-fill-color: transparent;
-//   background: rgb(131, 58, 180);
-//   background: linear-gradient(90deg, rgba(131, 58, 180, 1) 44%, rgba(72, 69, 252, 1) 100%);
-// }
+.judul {
+  font-size: 3em;
+  font-weight: 600;
+  -webkit-background-clip: text;
+
+}
+
+.subjudul {
+  font-weight: 300;
+}

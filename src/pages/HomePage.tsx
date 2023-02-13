@@ -31,21 +31,26 @@ export default function HomePage() {
         <section>
           <div className="">
             <div className="grid">
-              <div className="">
+              <div className="card">
                 <h2>Install via NPM</h2>
                 <p>Install Stuff source Sass and JavaScript files via npm,
                   <br />
                   *note: <i> <u> version for React js is still under development, maybe you will find Link lot of bugs</u></i>
                 </p>
+                <footer className="code">
+                  <pre><code>$<u> npm install stuffcss</u></code></pre>
+                </footer>
 
-                <pre><code>$<u> npm install stuffcss</u></code></pre>
 
               </div>
-              <div className="">
+              <div className="card">
                 <h2>Include via CDN</h2>
                 <p>When you only need to include Stuff compiled CSS or JS, you can use UNPKG.</p>
-                <pre><code>&lt;<b>link</b> <i>rel</i>=<u>"stylesheet"</u> <i>href</i>=<u>"https://unpkg.com/stuffcss@latest/dist/css/stuff.min.css"</u>&gt;</code></pre>
-                <pre><code>&lt;<b>script</b> <i>src</i>=<u>"https://unpkg.com/stuffcss@latest/dist/js/stuff.min.js"</u>&gt;&lt;/<b>script</b>&gt;</code></pre>
+                <footer className="code">
+                  <pre><code>&lt;<b>link</b> <i>rel</i>=<u>"stylesheet"</u> <i>href</i>=<u>"https://unpkg.com/stuffcss@latest/dist/css/stuff.min.css"</u>&gt;</code></pre>
+                  <pre><code>&lt;<b>script</b> <i>src</i>=<u>"https://unpkg.com/stuffcss@latest/dist/js/stuff.min.js"</u>&gt;&lt;/<b>script</b>&gt;</code></pre>
+                </footer>
+
               </div>
             </div>
           </div>

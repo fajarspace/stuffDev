@@ -8,7 +8,7 @@ export default function Navbar() {
         <ul>
           <li><a href="/">Stuff CSS</a></li>
           {/* <li><a href="/docs/">Docs</a></li>/ */}
-          <li><a href="/themes/">Themes</a></li>
+          {/* <li><a href="/themes/">Themes</a></li> */}
           <li><a href="/examples/">Examples</a></li>
 
         </ul>
@@ -24,6 +24,7 @@ export default function Navbar() {
           <Darkmode />
         </ul>
       </nav>
+      <br />
       <br />
     </>
   )

@@ -5,7 +5,6 @@
   --nav-background-color: #2d2d2d;
   --nav-border-color: #{rgba($grey-500, 0.2)};
   --nav-logo-color: #{mix($black, $grey-900)};
-  --article-code-background-color: black;
-  // --article-code-background-color: var(--code-background-color);
+  --article-code-background-color: var(--code-background-color);
 
 }
